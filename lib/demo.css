@@ -1,0 +1,199 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-size: 100%;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font: normal 1em Arial, Geneva, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 18px 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+a, a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+audio {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+button {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+    line-height: normal;
+    *overflow: visible;
+}
+
+.simBtn {
+    border: 1px dotted;
+}
+
+div#use {
+    display: none;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+div#useLegend {
+    cursor: pointer;
+}
+
+#useSpan {
+    font-size: 80%;
+}
+
+div#npTitle {
+    padding: 0 0 10px 15px;
+}
+
+div#container {
+    position: relative;
+    min-height: 100%;
+    /*width: 750px;*/
+    margin: 0 auto;
+    text-align: left;
+}
+
+div#content {
+    padding-bottom: 33px;
+}
+
+div#cwrap {
+    padding: 20px 20px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 33px;
+    bottom: 0;
+    right: 0;
+    font-size: 11px;
+    text-align: center;
+    line-height: 33px;
+}
+
+#audiowrap {
+    /*width: 500px;*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+.double {
+    padding-bottom: 20px;
+}
+
+.ctrlbtn {
+    width: 148px;
+    cursor: pointer;
+}
+
+.no-audio {
+    display: none;
+}
+
+div#extraControls {
+}
+
+div#plwrap {
+    padding-top: 20px;
+    font-size: 1em;
+}
+
+#plUL {
+    list-style: none;
+    margin: 0;
+    padding: 2px 0 0 0;
+}
+
+#plUL li {
+    cursor: pointer;
+    line-height: 36px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 0 3px 6px 3px;
+}
+
+#plUL li:hover {
+    font-size: 1.25em;
+}
+
+p.plus10 {
+    padding-left: 10px;
+}
+
+.plHead, .plItem {
+    position: relative;
+}
+
+.plHead {
+    text-align: center;
+}
+
+.plHeadTitle, .plTitle {
+    position: absolute;
+    top: 0;
+    right: 65px;
+    left: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.plHeadNum, .plNum {
+    width: 25px;
+}
+
+.plHeadNum, .plNum, .plLength {
+    text-align: right;
+}
+
+.plHeadLength, .plLength {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 60px;
+}
+
+.plSel, .plSel:hover {
+    font-size: 1.25em;
+    cursor: default !important;
+}
+
+.is-audio, #audio0 {
+    display: block;
+}
+
+.js.audio .is-audio {
+    display: block;
+}
+
+.js #audio0 {
+    display: block;
+}
